@@ -39,5 +39,7 @@ class TestHorizonController extends Controller
             Log1::dispatch()->onqueue('low');
         }
         echo('tets test test');
+        echo('done');
+        echo('done');
     }
 }
