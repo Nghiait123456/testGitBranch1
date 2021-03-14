@@ -7,7 +7,7 @@ use App\Jobs\Log2;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 
-class TestHorizonController extends Controller
+class Job3Controller extends Controller
 {
     //
 
