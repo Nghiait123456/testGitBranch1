@@ -27,12 +27,6 @@ class TestHorizonController extends Controller
     }
 
     public function job2() {
-//        for( $i = 0; $i <3; $i ++){
-//            Log1::dispatch()->onQueue('default');
-//            Log1::dispatch()->onqueue('hight');
-//            Log1::dispatch()->onqueue('low');
-//        }
-
         for( $i = 0; $i <3; $i ++){
             Log1::dispatch()->onQueue('default');
             Log1::dispatch()->onqueue('hight');
