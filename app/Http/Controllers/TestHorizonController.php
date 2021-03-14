@@ -15,6 +15,11 @@ class TestHorizonController extends Controller
         for( $i = 0; $i <10; $i ++){
 //            Log::info('testest');
             Log1::dispatch()->onQueue('fast-1');
+
+
+
+
+            echo('test horizon');
         }
 //        for( $i = 0; $i <30; $i ++) {
 //            Log2::dispatch()->onQueue('fast-1');
