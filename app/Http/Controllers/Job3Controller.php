@@ -38,9 +38,34 @@ class Job3Controller extends Controller
             Log1::dispatch()->onqueue('hight');
             Log1::dispatch()->onqueue('low');
         }
+
+
+
+
+
         echo('tets test test');
         echo('done');
         echo('done');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }
