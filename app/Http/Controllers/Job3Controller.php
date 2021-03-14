@@ -43,10 +43,6 @@ class Job3Controller extends Controller
 
 
 
-        echo('tets test test');
-
-
-
 
 
 
