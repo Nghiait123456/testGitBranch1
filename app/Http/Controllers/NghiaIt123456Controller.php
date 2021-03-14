@@ -40,6 +40,9 @@ class TestHorizonController extends Controller
             Log1::dispatch()->onqueue('low');
         }
 
+
+
+
         echo('done');
 
     }
