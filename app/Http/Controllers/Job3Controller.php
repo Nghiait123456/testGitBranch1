@@ -33,11 +33,11 @@ class Job3Controller extends Controller
 //            Log1::dispatch()->onqueue('low');
 //        }
 
-        for( $i = 0; $i <3; $i ++){
-            Log1::dispatch()->onQueue('default');
-            Log1::dispatch()->onqueue('hight');
-            Log1::dispatch()->onqueue('low');
-        }
+//        for( $i = 0; $i <3; $i ++){
+//            Log1::dispatch()->onQueue('default');
+//            Log1::dispatch()->onqueue('hight');
+//            Log1::dispatch()->onqueue('low');
+//        }
 
 
 
